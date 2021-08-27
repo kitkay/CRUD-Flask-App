@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <title>Task Master</title>
+{% endblock %}
+
+{% block body %}
+    <div class="content">
+        <h1>Update Task</h1>
+
+        <form action="/update/{{update_task_now.id}}" method="POST">
+            <input type="text" name="content" id="content" value="{{update_task_now.content}}" required autofocus />
+            <input type="submit" value="💾 Update Task" />
+        </form>
+
+    </div>
+{% endblock %}

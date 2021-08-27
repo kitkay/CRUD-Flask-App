@@ -1,0 +1,32 @@
+html,body{
+    margin: 0; padding: 0;
+    width: 100%; height: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.content{
+    margin: 10px auto;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    border: 3px dotted rgb(75, 73, 73);
+    padding: 10px;
+}
+
+form{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+h5{ color: green;}
+
+td{ text-align: center; padding: 0 10px; margin: 0;}
+
+a:link, a:visited, a:active{
+    text-decoration: none;
+    color: green;
+    display: flex;
+}
